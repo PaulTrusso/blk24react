@@ -2,8 +2,26 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+text-align: start; 
+ color: blue;
+ width: 100%;
+ height: 100%;
+  display: flex;
+  flex-direction: row;
 }
+.pupList{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  flex: 1;
+
+}
+
+.singlePup{
+  display: flex;
+  flex: 0;
+}
+
 
 .logo {
   height: 6em;
